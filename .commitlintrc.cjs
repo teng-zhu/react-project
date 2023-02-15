@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["@commitlint/config-conventional"],
+  extends: ['@commitlint/config-conventional'],
   prompt: {
     questions: {
       type: {
@@ -41,19 +41,17 @@ module.exports = {
             emoji: '🚨',
           },
           build: {
-            description:
-              '改变构建系统或者外部依赖',
+            description: '改变构建系统或者外部依赖',
             title: 'Builds',
             emoji: '🛠',
           },
           ci: {
-            description:
-              '改变ci配置和脚本',
+            description: '改变ci配置和脚本',
             title: 'Continuous Integrations',
             emoji: '⚙️',
           },
           chore: {
-            description: "修改src或测试文件以外的文件",
+            description: '修改src或测试文件以外的文件',
             title: 'Chores',
             emoji: '♻️',
           },
@@ -93,4 +91,4 @@ module.exports = {
       },
     },
   },
-}
+};
